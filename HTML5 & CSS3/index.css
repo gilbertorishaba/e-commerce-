@@ -1,3 +1,4 @@
+/* index.css */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -50,6 +51,7 @@ body {
     font-size: 1.2em;
 }
 
+
 .btn {
     background-color: #004080;
     color: #fff;
@@ -58,9 +60,9 @@ body {
     border-radius: 5px;
     font-size: 1.1em;
 }
+
 .btn:hover{
     background-color:#ff0000;
-    
 }
 
 .products {
@@ -164,15 +166,14 @@ body {
     padding: 20px;
     margin-top: 40px;
 }
-/* styles.css */
 
 /* Footer Styles */
 .footer {
-    background-color: #003366; /* Dark Blue Background */
-    color: #ffffff; /* White Text */
+    background-color: #003366; 
+    color: #ffffff; 
     padding: 40px 20px;
     text-align: center;
-    border-top: 2px solid #c8102e; /* Red border to match the e-commerce site theme */
+    border-top: 2px solid #c8102e;
 }
 
 .footer-container {
@@ -212,7 +213,7 @@ body {
 }
 
 .footer-nav a:hover {
-    color: #f4b400; /* Highlight color on hover */
+    color: #f4b400; 
 }
 
 .footer-social {
@@ -230,12 +231,12 @@ body {
 }
 
 .footer-social .social-icon:hover {
-    color: #f4b400; /* Highlight color on hover */
+    color: #f4b400;
 }
 
 .footer-bottom {
     margin-top: 20px;
-    border-top: 1px solid #ffffff; /* Light separator line */
+    border-top: 1px solid #ffffff;
 }
 
 .footer-bottom p {
@@ -260,3 +261,7 @@ body {
     }
 }
 
+.card{
+    border: 1px solid #ddd;
+    border-radius: 8px
+}
